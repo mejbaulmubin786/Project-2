@@ -21,12 +21,13 @@ html {
 }
 body {
   font-family: var(--open-sans-font);
-  font-family: 18px;
+  font-size: 18px;
   color: var(--text-color);
 }
 .container {
   max-width: 1410px;
   margin: 0 auto;
+  width: 80%;
 }
 
 ul {
@@ -42,24 +43,53 @@ a {
 .d-flex {
   display: flex;
 }
+.flex-column {
+  flex-direction: column;
+}
+
 .space-between {
   justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
 }
 .align-center {
   align-items: center;
 }
 
+.d-grid {
+  display: grid;
+}
 .margin-left {
   margin-left: 7.1rem;
 }
-
+.margin-left-sm {
+  margin-left: 2.8rem;
+}
 .btn {
   padding: 1.4rem 2.8rem;
   background-color: var(--primary-color);
   border-radius: 100px;
   transition: all 0.3s;
+  display: block;
 }
 .btn:hover {
-  background-color: var(--secondary-color);
-  box-shadow: inset 0 0 0 3px var(--primary-color);
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px var(--primary-color);
+}
+h1 {
+  font-size: 8.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-top: 14.6rem;
+}
+p {
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+span {
+  display: block;
 }

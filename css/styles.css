@@ -2,22 +2,45 @@
           header-section CSS
 =======================================*/
 header {
-  background-image: url(../img/header.png);
+  background: linear-gradient(rgba(92, 85, 153, 0.9), rgba(92, 85, 153, 0.9)),
+    url(../images/header.png) no-repeat center center/cover;
 }
 nav {
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color-lite);
   padding: 1.8rem 0;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 nav .container {
 }
+
+header nav .logo {
+  flex-basis: 10.3rem;
+}
+
 header nav .nav-list {
-  gap: 4.25rem;
+  flex-basis: 100rem;
+}
+header nav .nav-list li a {
+  white-space: nowrap;
+}
+header p {
+  font-size: 2.4rem;
+  font-family: var(--paprika-font) !important;
+}
+
+header .buttons {
+  margin-bottom: 25.4rem;
 }
 /*======================================
-          Common CSS ‍Start
+          SECTION-PRICE CSS
 =======================================*/
+.section-price {
+}
+.section-price .container {
+}
+.section-price .container .prices {
+}
 /*======================================
           Common CSS ‍Start
 =======================================*/
