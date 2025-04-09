@@ -5,7 +5,7 @@
   --tertiary-color: #5c5599;
   --text-color: #eff4fa;
   --text-color-light: #e8e7f0;
-  --text-color-dark: #09052c;
+  --text-color-dark: #141135;
   --text-color-dark-light: #736da7;
   --open-sans-font: "Open Sans", sans-serif;
   --paprika-font: "Paprika", system-ui;
@@ -59,6 +59,17 @@ a {
 
 .d-grid {
   display: grid;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 .margin-left {
   margin-left: 7.1rem;

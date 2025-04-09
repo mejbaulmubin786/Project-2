@@ -15,7 +15,7 @@ nav .container {
 }
 
 header nav .logo {
-  flex-basis: 10.3rem;
+  flex-basis: 10.9rem;
 }
 
 header nav .nav-list {
@@ -39,7 +39,89 @@ header .buttons {
 }
 .section-price .container {
 }
+
+.section-price .container .top-bar {
+  max-width: 117rem;
+  margin: 0 auto;
+  overflow: hidden;
+  gap: 3rem;
+  grid-template-columns: 27rem 20rem 34rem 27rem;
+  height: 37rem;
+}
+.section-price .container .top-bar div {
+  margin-top: -11.3rem;
+  width: 100%;
+  height: 48.2rem;
+  background-color: #c4c4c4;
+  border-radius: 2rem;
+}
+.section-price .container .top-bar div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+.section-price .container .top-bar div:first-child {
+  margin-top: -14.7rem;
+  width: 100%;
+  height: 30.5rem;
+}
+.section-price .container .top-bar div:nth-child(2) {
+  margin-top: -14.7rem;
+  width: 100%;
+  height: 49.6rem;
+}
+.section-price .container .top-bar div:nth-child(3) {
+  margin-top: -3.1rem;
+  width: 100%;
+  height: 32.6rem;
+}
+.section-price .container .top-bar div:last-child {
+  margin-top: -11.3rem;
+  width: 100%;
+  height: 48.2rem;
+}
 .section-price .container .prices {
+  justify-items: center;
+  align-items: center;
+}
+.section-price .container .prices .price {
+  font-size: 6.4rem;
+  color: var(--primary-color);
+  font-weight: 800;
+}
+
+.section-price .container .prices span {
+  font-size: 3.6rem;
+  color: var(--text-color-dark);
+  font-weight: 800;
+}
+
+.section-price .container .prices > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  padding: 1.5rem;
+}
+
+.section-price .container .prices > div::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 70%; /* প্রয়োজন অনুযায়ী উচ্চতা নির্ধারণ করুন */
+  background-color: #ddd; /* হালকা ধূসর রঙ */
+}
+
+/* শেষ আইটেমের পরে বিভাজন রেখা দেখানোর প্রয়োজন নেই */
+.section-price .container .prices > div:last-child::after {
+  display: none;
 }
 /*======================================
           Common CSS ‍Start
