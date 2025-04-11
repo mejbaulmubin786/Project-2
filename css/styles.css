@@ -84,6 +84,7 @@ header .buttons {
 .section-price .container .prices {
   justify-items: center;
   align-items: center;
+  margin-top: 10rem;
 }
 .section-price .container .prices .price {
   font-size: 6.4rem;
