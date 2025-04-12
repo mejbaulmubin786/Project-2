@@ -37,6 +37,7 @@ header .buttons {
 =======================================*/
 
 .section-price {
+  padding-bottom: 10rem;
 }
 .section-price .container {
 }
@@ -126,8 +127,16 @@ header .buttons {
   display: none;
 }
 /*======================================
-          Common CSS ‍Start
+          Section-Why
 =======================================*/
+.section-why {
+}
+.section-why .container {
+  justify-content: left;
+}
+
+.section-why .left-bar {
+}
 /*======================================
           Common CSS ‍Start
 =======================================*/

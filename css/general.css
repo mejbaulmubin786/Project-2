@@ -22,7 +22,7 @@ html {
 body {
   font-family: var(--open-sans-font);
   font-size: 18px;
-  color: var(--text-color);
+  color: var(--text-color-dark);
 }
 .container {
   max-width: 1410px;
@@ -53,10 +53,17 @@ a {
 .justify-center {
   justify-content: center;
 }
+
+.justify-center-left {
+  justify-content: left;
+}
 .align-center {
   align-items: center;
 }
 
+.align-items-start {
+  align-items: start;
+}
 .d-grid {
   display: grid;
 }
