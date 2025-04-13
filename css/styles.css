@@ -4,6 +4,7 @@
 header {
   background: linear-gradient(rgba(92, 85, 153, 0.9), rgba(92, 85, 153, 0.9)),
     url(../images/header.png) no-repeat center center/cover;
+  color: var(--text-color);
 }
 nav {
   background-color: var(--secondary-color-lite);
@@ -27,6 +28,7 @@ header nav .nav-list li a {
 header p {
   font-size: 2.4rem;
   font-family: var(--paprika-font) !important;
+  margin-bottom: 2rem;
 }
 
 header .buttons {
@@ -38,6 +40,10 @@ header .buttons {
 
 .section-price {
   padding-bottom: 10rem;
+  background-color: var(--background-color);
+  background-image: url(../images/price/section-price.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
 }
 .section-price .container {
 }
@@ -130,12 +136,34 @@ header .buttons {
           Section-Why
 =======================================*/
 .section-why {
+  padding: 10rem;
+  background-color: var(--background-color-lite);
+  background-image: url(../images/why/section-why.png);
+  background-repeat: no-repeat;
+}
+
+.section-why p {
+  text-align: left;
 }
 .section-why .container {
   justify-content: left;
 }
 
 .section-why .left-bar {
+}
+.section-why .left-bar p {
+  padding: 4.2rem 2.8rem;
+  width: 100%;
+}
+.section-why .left-bar p:hover {
+  background-color: rgba(162, 169, 192, 0.15);
+}
+.section-why p {
+  text-align: left;
+}
+
+.section-why .right-bar p {
+  margin-bottom: 4rem;
 }
 /*======================================
           Common CSS ‍Start
