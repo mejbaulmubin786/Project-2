@@ -137,7 +137,7 @@ header .buttons {
 =======================================*/
 .section-why {
   padding: 10rem;
-  background-color: var(--background-color-lite);
+  background-color: var(--background-color-light);
   background-image: url(../images/why/section-why.png);
   background-repeat: no-repeat;
 }
@@ -147,6 +147,7 @@ header .buttons {
 }
 .section-why .container {
   justify-content: left;
+  column-gap: 18.6rem;
 }
 
 .section-why .left-bar {
@@ -168,6 +169,46 @@ header .buttons {
 /*======================================
           Common CSS ‍Start
 =======================================*/
+.section-service {
+  background-color: var(--background-color-lite);
+  padding: 10rem 0;
+}
+
+.section-service .services {
+  gap: 3rem;
+}
+.about p {
+  text-align: left;
+  margin-bottom: 5.6rem;
+}
+
+.section-service .services .service {
+  padding: 4.2rem 2.8rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.section-service .services .service:hover {
+  background-color: #6b62c5;
+  color: var(--background-color-light);
+}
+
+.section-service .services .service:hover .btn--secondary {
+  color: var(--background-color-light);
+}
+
+.section-service .services .service img {
+  margin-bottom: 3.2rem;
+}
+.section-service .services .service h3 {
+  margin-bottom: 1.6rem;
+}
+.section-service .services .service p {
+  margin-bottom: 1.8rem;
+}
+
 /*======================================
           Common CSS ‍Start
 =======================================*/

@@ -1,0 +1,38 @@
+.read-more-button {
+  background-color: #f0f8ff; /* হালকা নীল ব্যাকগ্রাউন্ড */
+  color: #333; /* গাঢ় ধূসর টেক্সট */
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 2px solid #87ceeb; /* হালকা আকাশী বর্ডার */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+  position: relative; /* অ্যারো পজিশনিং এর জন্য */
+  overflow: hidden; /* স্প্যান এলিমেন্টের অতিরিক্ত অংশ লুকানোর জন্য */
+}
+
+.read-more-button:hover {
+  background-color: #87ceeb; /* হোভারে হালকা আকাশী ব্যাকগ্রাউন্ড */
+  color: #fff; /* হোভারে সাদা টেক্সট */
+  border-color: #4682b4; /* হোভারে গাঢ় নীল বর্ডার */
+}
+
+.arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid #333; /* ডিফল্ট অ্যারোর রঙ */
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  margin-left: 8px;
+  vertical-align: middle;
+  transition: border-right-color 0.3s ease, transform 0.3s ease;
+}
+
+.read-more-button:hover .arrow {
+  border-right-color: #fff; /* হোভারে সাদা অ্যারো */
+  transform: translateX(3px); /* হোভারে সামান্য ডানে সরবে */
+}
