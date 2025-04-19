@@ -213,6 +213,9 @@ header .buttons {
 =======================================*/
 .section-impact {
   padding: 10rem 0;
+  background-image: url(../images/impact/section-impact.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
 }
 .section-impact .header-content p {
   margin-bottom: 7.5rem;
