@@ -150,3 +150,9 @@ p {
 span {
   display: block;
 }
+.text-align-center {
+  text-align: center;
+}
+.text-align-left {
+  text-align: left;
+}

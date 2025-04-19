@@ -166,7 +166,7 @@ header .buttons {
   margin-bottom: 4rem;
 }
 /*======================================
-          Common CSS ‍Start
+          section-service
 =======================================*/
 .section-service {
   background-color: var(--background-color-lite);
@@ -209,8 +209,20 @@ header .buttons {
 }
 
 /*======================================
-          Common CSS ‍Start
+          section-impact
 =======================================*/
+.section-impact {
+  padding: 10rem 0;
+}
+.section-impact .header-content p {
+  margin-bottom: 7.5rem;
+}
+.bottom-content .text-content .card {
+  gap: 3.5rem;
+}
+.bottom-content .text-content p {
+  margin-bottom: 4rem;
+}
 /*======================================
           Common CSS ‍Start
 =======================================*/
