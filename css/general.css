@@ -139,6 +139,10 @@ a {
   font-weight: 700;
   line-height: 1.5;
 }
+.description {
+  font-size: 1.8rem;
+  font-family: var(--paprika-font) !important;
+}
 p {
   line-height: 1.5;
   text-align: center;

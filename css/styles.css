@@ -25,9 +25,8 @@ header nav .nav-list {
 header nav .nav-list li a {
   white-space: nowrap;
 }
-header p {
+header .description {
   font-size: 2.4rem;
-  font-family: var(--paprika-font) !important;
   margin-bottom: 2rem;
 }
 
