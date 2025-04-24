@@ -227,10 +227,23 @@ header .buttons {
   margin-bottom: 4rem;
 }
 /*======================================
-          Common CSS ‍Start
+          section-plan
 =======================================*/
-.cards .card {
+.section-plan {
+  background-color: var(--background-color);
 }
+.section-plan .cards {
+  max-width: 11.7rem;
+  gap: 3rem;
+  text-align: center;
+}
+.cards .card {
+  background-color: #ffffff;
+  border-radius: 20px;
+
+  box-shadow: #6b62c5;
+}
+
 /*======================================
           Common CSS ‍Start
 =======================================*/
