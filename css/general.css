@@ -28,7 +28,7 @@ body {
   color: var(--text-color-dark);
 }
 .container {
-  max-width: 1410px;
+  max-width: 141rem;
   margin: 0 auto;
   width: 80%;
 }
