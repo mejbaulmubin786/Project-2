@@ -233,6 +233,9 @@ header .buttons {
   background-color: var(--background-color);
   padding: 10rem 0;
 }
+.section-plan .container > h1 {
+  margin-bottom: 6.4rem;
+}
 .section-plan .cards {
   max-width: 117rem;
   gap: 3rem;
