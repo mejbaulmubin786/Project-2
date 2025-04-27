@@ -260,8 +260,11 @@ header .buttons {
   margin-bottom: 2.6rem;
 }
 /*======================================
-          Common CSS ‍Start
+          section-about-us
 =======================================*/
+.section-about-us {
+  padding: 10rem 0;
+}
 /*======================================
           Common CSS ‍Start
 =======================================*/
